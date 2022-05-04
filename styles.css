@@ -19,17 +19,18 @@
 
   .main {
     background-color: hsl(0, 0%, 100%);
-    padding: 16px;
+    padding: 2rem;
     border-radius: 20px;
-    height: 80%;
   }
 
   img {
     border-radius: 20px;
     width: 100%;
+    height: auto;
   }
 
   h1 {
+    text-align: center;
     padding: 0.5rem;
     font-size: 1.5rem;
     font-weight: 700;
@@ -37,6 +38,50 @@
   }
 
   p {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+  }
+}
+
+/* For desktops*/
+@media only screen and (max-width: 1440px) {
+  body {
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main {
+    width: 22rem;
+    height: 80vh;
+    padding: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2rem;
+  }
+
+  img {
+    border-radius: 2rem;
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+  }
+
+  p {
+    text-align: center;
     padding: 0.5rem;
     font-size: 1rem;
     font-weight: 400;
