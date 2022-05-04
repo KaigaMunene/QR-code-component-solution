@@ -30,7 +30,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
--[Netlify](https://www.netlify.com/) - lets you run automated builds of your website with each Git commit using CI/CD pipeline designed for web developers
+- [Netlify](https://www.netlify.com/) - lets you run automated builds of your website with each Git commit using CI/CD pipeline designed for web developers
 
 ### What I learned
 
