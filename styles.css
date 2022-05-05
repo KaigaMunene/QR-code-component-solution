@@ -19,7 +19,7 @@
 
   .main {
     background-color: hsl(0, 0%, 100%);
-    padding: 2rem;
+    padding: 0.5rem;
     border-radius: 20px;
   }
 
@@ -60,7 +60,7 @@
 
   .main {
     width: 22rem;
-    padding: 2rem;
+    padding: 0.5rem;
     background-color: hsl(0, 0%, 100%);
     border-radius: 2rem;
   }
